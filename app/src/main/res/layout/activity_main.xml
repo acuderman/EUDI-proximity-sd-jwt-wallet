@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_wallet"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="EUDI Wallet" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EUDI Wallet"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_credential_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading credentials..."
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btn_view_credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Credentials"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <TextView
+            android:id="@+id/tv_wallet_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ready to share"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btn_start_sharing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Proximity Sharing"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.Material3.Button.UnelevatedButton" />
+
+        <Button
+            android:id="@+id/btn_stop_sharing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Sharing"
+            android:textSize="16sp"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp"
+            android:enabled="false"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <LinearLayout
+            android:id="@+id/qr_code_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone"
+            android:background="@drawable/card_background"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_qr_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show this QR code to the verifier"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_qr_code"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="QR Code for verification" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

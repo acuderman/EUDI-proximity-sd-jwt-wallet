@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/drawable_ic_wallet.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/drawable/ic_wallet.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/layout_item_attribute_selection.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/layout/item_attribute_selection.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/drawable_card_background.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/drawable/card_background.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/layout_dialog_pin_entry.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/layout/dialog_pin_entry.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-merged_res-38:/layout_activity_authentication.xml.flat",
+        "source": "com.eudi.wallet.app-main-40:/layout/activity_authentication.xml"
+    }
+]

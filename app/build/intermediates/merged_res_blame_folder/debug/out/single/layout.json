@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.eudi.wallet.app-mergeDebugResources-37:/layout/item_attribute_selection.xml",
+        "source": "com.eudi.wallet.app-main-40:/layout/item_attribute_selection.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "com.eudi.wallet.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-mergeDebugResources-37:/layout/dialog_pin_entry.xml",
+        "source": "com.eudi.wallet.app-main-40:/layout/dialog_pin_entry.xml"
+    },
+    {
+        "merged": "com.eudi.wallet.app-mergeDebugResources-37:/layout/activity_authentication.xml",
+        "source": "com.eudi.wallet.app-main-40:/layout/activity_authentication.xml"
+    }
+]

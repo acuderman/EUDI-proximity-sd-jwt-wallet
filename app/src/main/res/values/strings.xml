@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EUDI Wallet</string>
+    <string name="start_proximity_sharing">Start Proximity Sharing</string>
+    <string name="stop_sharing">Stop Sharing</string>
+    <string name="view_credentials">View Credentials</string>
+    <string name="verification_request">Verification Request</string>
+    <string name="share_selected">Share Selected</string>
+    <string name="reject">Reject</string>
+    <string name="enter_pin">Enter your PIN</string>
+    <string name="cancel">Cancel</string>
+</resources>
